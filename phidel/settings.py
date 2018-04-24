@@ -138,7 +138,9 @@ INSTALLED_APPS = (
     'djangocms_snippet',
     'djangocms_googlemap',
     'djangocms_video',
-    'phidel'
+    'phidel',
+    'mptt',
+    'aldryn_bootstrap3'
 )
 
 LANGUAGES = (
@@ -167,8 +169,9 @@ CMS_LANGUAGES = {
 CMS_TEMPLATES = (
     ## Customize this
     ('fullwidth.html', 'Fullwidth'),
-    ('sidebar_left.html', 'Sidebar Left'),
-    ('sidebar_right.html', 'Sidebar Right')
+    ('home.html', 'Home'),
+    # ('sidebar_left.html', 'Sidebar Left'),
+    # ('sidebar_right.html', 'Sidebar Right')
 )
 
 CMS_PERMISSION = True
@@ -188,7 +191,7 @@ DATABASES = {
 }
 
 MIGRATION_MODULES = {
-    
+
 }
 
 THUMBNAIL_PROCESSORS = (
