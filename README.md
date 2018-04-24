@@ -1,5 +1,5 @@
 # Phidel College
- This API is used to retrieve, structure and return data being used by the food basket application.
+ This Cms is for the school django site
 
 ## Technologies
 - Python(Django)
@@ -9,6 +9,10 @@
 - Clone the repo
 
 - Install the virtual environment globally with `pip3 install virtualenv`.
+
+- Create a new virtual environment
+
+- Activate the virtual environment
 
 - Run `pip install -r requirement.txt`
 
